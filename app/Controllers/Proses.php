@@ -239,6 +239,6 @@ class Proses extends BaseController{
         $this->hargaModel->delete($id);
         session()->setFlashdata('pesan1', 'Data berhasil dihapus !');
         return redirect()->to('dashboard/listpekerjaan');
-    }
+    }    
 
 }

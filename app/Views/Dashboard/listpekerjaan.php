@@ -15,7 +15,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <form action="" method="post">
+                    <form action="/dashboard/listpekerjaan" method="post">
                         <div class="input-group mr-3 my-3">
                             <input type="text" class="form-control" placeholder="Cari" id="cari" name="cari">
                             <button class="btn btn-outline-secondary" type="submit">Cari</button>

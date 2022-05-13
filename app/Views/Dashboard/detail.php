@@ -60,7 +60,12 @@
                             </div>
                         </div>
                         <div class="container">
-                            <img src="/gallery/<?= $pekerjaan['foto']; ?>" class="card-img-top" alt="..." width="500">
+                            <div class="row">
+                                <div class="col mx-5 my-5">
+                                    <img src="/gallery/<?= $pekerjaan['foto']; ?>" class="card-img" alt="..."
+                                        width="300">
+                                </div>
+                            </div>
                         </div>
                         <div class="container mt-3">
                             <div class="row">
@@ -71,6 +76,8 @@
                                             <div class="col text-right">
                                                 <a href="/dashboard/update/<?= $pekerjaan['id']; ?>"
                                                     class="btn-sm btn-primary">Update</a>
+                                                <a href="/dashboard/print/<?= $pekerjaan['id']; ?>"
+                                                    class="btn-sm btn-success">Print</a>
                                             </div>
                                         </div>
                                         <!-- /.card-header -->
