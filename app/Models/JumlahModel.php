@@ -4,6 +4,7 @@ namespace App\Models;
 use CodeIgniter\Model;
 
 class JumlahModel extends Model{
+    
     protected $table         = 'tb_jumlah';
     protected $allowedFields = [
         'jumlah1','jumlah2','jumlah3','jumlah4','jumlah5',

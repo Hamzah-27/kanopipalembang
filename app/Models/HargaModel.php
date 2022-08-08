@@ -4,6 +4,7 @@ namespace App\Models;
 use CodeIgniter\Model;
 
 class HargaModel extends Model{
+    
     protected $table         = 'tb_harga';
     protected $allowedFields = [
         'harga1','harga2','harga3','harga4','harga5',

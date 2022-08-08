@@ -4,6 +4,7 @@ namespace App\Models;
 use CodeIgniter\Model;
 
 class PekerjaanModel extends Model{
+    
     protected $table         = 'tb_pekerjaan';
     protected $allowedFields = ['jenispekerjaan','luasvolume','harga','foto'];
 

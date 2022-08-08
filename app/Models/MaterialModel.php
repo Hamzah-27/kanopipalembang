@@ -4,6 +4,7 @@ namespace App\Models;
 use CodeIgniter\Model;
 
 class MaterialModel extends Model{
+    
     protected $table         = 'tb_material';
     protected $allowedFields =[
         'material1','material2','material3','material4','material5',

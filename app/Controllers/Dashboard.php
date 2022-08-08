@@ -17,7 +17,8 @@ class Dashboard extends BaseController
     protected $materialModel;
     protected $ukuranModel;
     protected $jumlahModel;
-    protected $hargaModel;    
+    protected $hargaModel;
+       
     public function __construct() {
         $this->pekerjaanModel = new pekerjaanModel();
         $this->materialModel = new materialModel();
